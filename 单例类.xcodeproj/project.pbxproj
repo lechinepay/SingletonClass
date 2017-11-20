@@ -15,6 +15,7 @@
 		F0E10EDA1FC278A500289BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E10ED91FC278A500289BF2 /* main.m */; };
 		F0E10EE41FC278A500289BF2 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E10EE31FC278A500289BF2 /* ___Tests.m */; };
 		F0E10EEF1FC278A500289BF2 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E10EEE1FC278A500289BF2 /* ___UITests.m */; };
+		F0E10EFE1FC278D900289BF2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E10EFD1FC278D900289BF2 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F0E10EEA1FC278A500289BF2 /* 单例类UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单例类UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E10EEE1FC278A500289BF2 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		F0E10EF01FC278A500289BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E10EFC1FC278D900289BF2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F0E10EFD1FC278D900289BF2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F0E10ECB1FC278A500289BF2 /* AppDelegate.m */,
 				F0E10ECD1FC278A500289BF2 /* ViewController.h */,
 				F0E10ECE1FC278A500289BF2 /* ViewController.m */,
+				F0E10EFC1FC278D900289BF2 /* Person.h */,
+				F0E10EFD1FC278D900289BF2 /* Person.m */,
 				F0E10ED01FC278A500289BF2 /* Main.storyboard */,
 				F0E10ED31FC278A500289BF2 /* Assets.xcassets */,
 				F0E10ED51FC278A500289BF2 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				F0E10ECF1FC278A500289BF2 /* ViewController.m in Sources */,
 				F0E10EDA1FC278A500289BF2 /* main.m in Sources */,
+				F0E10EFE1FC278D900289BF2 /* Person.m in Sources */,
 				F0E10ECC1FC278A500289BF2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
